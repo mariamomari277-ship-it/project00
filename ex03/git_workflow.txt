@@ -1,0 +1,29 @@
+Git Workflow: Edit → Add → Commit → Push
+
+1. Edit
+Create or modify a file in the repository.
+
+Example:
+nano README.md
+
+2. Add
+Stage the modified file so Git knows it should be included in the next commit.
+
+Command:
+git add README.md
+
+3. Commit
+Save the staged changes to the local Git repository with a clear message.
+
+Command:
+git commit -m "Update README"
+
+4. Push
+Upload the committed changes from the local repository to the remote GitHub repository.
+
+Command:
+git push
+
+Complete workflow:
+
+Edit → git add → git commit → git push
